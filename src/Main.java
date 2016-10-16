@@ -8,7 +8,7 @@ import java.nio.file.*;
 public class Main {
     public static void main(String[] args) throws Exception {
         // création de la socket
-        int port = 80;
+        int port = 8080;
         ServerSocket serverSocket = new ServerSocket(port);
         System.err.println("Serveur lancé sur le port : " + port);
 
