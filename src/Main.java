@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 public class Main {
     public static void main(String[] args) throws Exception {
         // création de la socket
-        int port = 8080;
+        int port = 80;
         ServerSocket serverSocket = new ServerSocket(port);
         System.err.println("Serveur lancé sur le port : " + port);
 
